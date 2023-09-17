@@ -4,6 +4,7 @@
 from enum import IntEnum, auto
 
 class Role(IntEnum):
+    #design pattern: null object pattern = have a 'dedicated null object' representing the null value of the class
     NONE = 0
     ENEMY = auto()
     ENTRANCE = auto()
